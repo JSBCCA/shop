@@ -3,7 +3,7 @@ def myshop(game=0, system=0, movie=0, pizza=0, soda=0):
     second = system * 249.99
     third = movie * 19.99
     fourth = pizza * 5.99
-    fifth = soda * 1.50
+    fifth = soda * 1.55
     sixth = (first + second + third + fourth + fifth)
     seventh = round((sixth * 1.07), 2)
     print("Here is your receipt. $" + str(seventh) +
@@ -16,7 +16,7 @@ def shop():
           "system = $249.99\n"
           "movie = $19.99\n"
           "pizza = $5.99\n"
-          "soda = $1.50\n")
+          "soda = $1.55\n")
     myshop(
         int(input("game: ")), int(input("system: ")), int(input("movie: ")),
         int(input("pizza: ")), int(input("soda: ")))
